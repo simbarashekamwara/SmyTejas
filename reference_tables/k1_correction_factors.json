@@ -1,0 +1,16 @@
+{
+  "_source": "Chapter 02: Electric Cables - Facteur de correction K1",
+  "_note": "For a given selection_letter, check its listed special cases in order. If none apply, use the 'other_cases' value (applies to B, C, E and F alike).",
+  "B": {
+    "embedded_directly_in_thermally_insulating_material": 0.70,
+    "conduit_embedded_in_thermally_insulating_material": 0.77,
+    "multiconductor_cables": 0.90,
+    "construction_void_or_trench": 0.95
+  },
+  "C": {
+    "mounted_under_ceiling": 0.95
+  },
+  "E": {},
+  "F": {},
+  "other_cases": 1.00
+}

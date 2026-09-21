@@ -1,0 +1,13 @@
+{
+  "_source_kn": "Neutral 3rd-harmonic loading correction, per NF C 15-100 §523.5.2 (value confirmed via public manufacturer sizing guides, not the standard text itself)",
+  "Kn": {
+    "third_harmonic_rate_under_15_percent": 1.00,
+    "third_harmonic_rate_15_to_33_percent": 0.84,
+    "third_harmonic_rate_over_33_percent": 1.45
+  },
+  "_source_ks": "Parallel-cable symmetry correction, per NF C 15-105 §B.5.2, matches Chapter 02 exactly",
+  "Ks": {
+    "2_or_4_cables_per_phase_symmetric": 1.00,
+    "2_3_or_4_cables_per_phase_not_symmetric": 0.80
+  }
+}
